@@ -95,7 +95,8 @@ router.get('/items/:id', function(req, res){
             picture: (itemData.pictures.length) ? itemData.pictures[0].url : null,
             condition: itemData.condition,
             free_shipping: itemData.shipping.free_shipping,
-            location: itemData.seller_address.state.name
+            location: itemData.seller_address.state.name,
+            sold_quantity: itemData.sold_quantity
         }
         https.get(`https://api.mercadolibre.com/categories/${itemData.category_id}`, function (resp) {
           var data = '';
