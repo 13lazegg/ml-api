@@ -1,0 +1,27 @@
+{
+  "name": "ml-api",
+  "version": "1.0.0",
+  "description": "Test de Mercadolibre",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13lazegg/ml-api.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Rodrigo Gonzalez Godoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/13lazegg/ml-api/issues"
+  },
+  "homepage": "https://github.com/13lazegg/ml-api#readme"
+}
